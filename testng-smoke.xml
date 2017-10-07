@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.wbl.utils.LoggerListener"></listener>
+<listener class-name="com.wbl.utils.CustomReporter"></listener>
+</listeners>
+  <test name="SmokeTest">
+<!--    <groups>
+      <run>
+      <include name="smoke"></include>
+      </run>
+      </groups> -->
+    <classes>
+      <class name="com.wbl.HomePageTest">     
+      </class>
+    </classes>
+  </test>
+   <!-->test name="RegressionTest">
+    <classes>
+      <class name="com.wbl.SearchResultsDetailsPageTest"/>
+      <class name="com.wbl.SearchResultsPageTest"/>
+      <class name="com.wbl.HomePageTest"/>
+    </classes>
+  </test--> 
+</suite> 

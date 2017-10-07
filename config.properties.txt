@@ -1,0 +1,4 @@
+devUrl: https://www.dev.ebay.com/
+qaUrl: https://www.ebay.com/
+stageUrl: https://www.stage.ebay.com/
+browser: chrome
